@@ -1,18 +1,20 @@
 /*headhhesive.js is that thing that helps hold the nav bar in place when you scroll down*/
 
-.top-message-bar {
-    text-align: center;
-    color: #000;
-    margin: auto;
-    padding: 7px;
-    background-color: #9191B5;
-}
-.jumbotron {
+.home .jumbotron {
     background-image: url('https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?q=80&fm=jpg&s=8fb5ac0360719808e142719bf4a3470d');
     background-size: cover;
     background-position: 0 -100px;
     color: rgba(255, 255, 255, 0.5);
     color: #000;
+}
+
+.contact .jumbotron {
+	background-image: url('https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&fm=jpg&s=ae9f141fc85e050f6d68d1654c554236');
+    background-size: cover;
+    background-position: 0 -100px;
+    color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-align: center;
 }
 .middle-section {
     text-align: center;
@@ -29,3 +31,31 @@
     width: 100%;
     margin-top: 20px;
 }
+
+.address,
+.logo-container {
+	text-align: center;
+}
+
+.contact form {
+	text-align: center;
+	font-size: 12px;
+	padding: 7px 0;
+}
+
+.center-message {
+	background-color: #5C5C8A;
+	color: white;	
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 35px 0;
+	font-size: 18px;
+}
+
+.center-message.message-header {
+	padding: 7px 0;
+	font-size: 12px;
+
+}
+
