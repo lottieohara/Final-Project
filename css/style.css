@@ -16,6 +16,42 @@
     color: #000;
     text-align: center;
 }
+
+.about .jumbotron {
+    background-image: url('https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&fm=jpg&s=ae9f141fc85e050f6d68d1654c554236');
+    background-size: cover;
+    background-position: 0 -100px;
+    color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-align: center;
+    padding: 100px;
+}
+
+.home .jumbotron {
+    background-image: url('https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&fm=jpg&s=ae9f141fc85e050f6d68d1654c554236');
+    background-size: cover;
+    background-position: 0 -100px;
+    color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-align: center;
+}
+
+.about-text {
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 80%;
+}
+
+.about2 .jumbotron {
+    background-image: url('https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&fm=jpg&s=ae9f141fc85e050f6d68d1654c554236');
+    background-size: cover;
+    background-position: 0 -100px;
+    color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-align: center;
+}
+
 .middle-section {
     text-align: center;
 }
@@ -44,7 +80,7 @@
 }
 
 .center-message {
-	background-color: #5C5C8A;
+	background-color: #D65930;
 	color: white;	
 	display: block;
 	width: 100%;
@@ -56,6 +92,34 @@
 .center-message.message-header {
 	padding: 7px 0;
 	font-size: 12px;
+}
 
+.form-container {
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+}
+
+.home-container {
+    text-align: center;
+    padding: 5%;
+    height: 1700px;
+}
+
+.bottom-text {
+    text-align: center;
+    background-color: #D65930;
+    color: white;   
+    display: block;
+    padding: 5%;
+    margin: 7px 7px;
+    height: 250px;
+}
+
+.footer {
+    height: 20px;
+    text-align: center;
+    color: #D65930;
+    padding: 5%;
 }
 
