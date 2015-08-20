@@ -1,11 +1,30 @@
 /*headhhesive.js is that thing that helps hold the nav bar in place when you scroll down*/
 
+body {
+    padding-top: 130px;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    padding-top: 42px;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 31px !important;
+}
+
+.navbar a {
+    margin: 0 25px;
+}
+
 .home .jumbotron {
     background-image: url('https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?q=80&fm=jpg&s=8fb5ac0360719808e142719bf4a3470d');
     background-size: cover;
     background-position: 0 -100px;
     color: rgba(255, 255, 255, 0.5);
     color: #000;
+    height: 650px;
+    padding-top: 100px;
 }
 
 .contact .jumbotron {
@@ -54,10 +73,12 @@
 
 .middle-section {
     text-align: center;
+    height: 275px;
 }
 .logo-container {
     width: 100%;
     text-align: center;
+    height: 350px;
 }
 .logo-container img {
     height: 300px;
@@ -86,7 +107,15 @@
 	width: 100%;
 	text-align: center;
 	padding: 35px 0;
-	font-size: 18px;
+	font-size: 13px;
+    
+}
+
+.center-message-scroll {
+    position: fixed;
+    top: 0;
+    padding: 6px 0;
+    z-index: 1000;
 }
 
 .center-message.message-header {
@@ -100,10 +129,29 @@
     margin: 10%;
 }
 
+.workshop-image {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/c0/f4/83/c0f483371278244abbde4fcc2b18a64b.jpg');
+}
+
+.consulting-image {
+    background-image: url('http://4.bp.blogspot.com/-c_KpggW8SYY/UPFevQ2vSjI/AAAAAAAAQdE/JLxQA_5Z9Xc/s400/4p.jpg');
+}
+
+.rounded-image {
+    height: 450px;
+    width:  450px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.consulting-row {
+    padding-top: 100px;
+}
+
 .home-container {
     text-align: center;
-    padding: 5%;
-    height: 1700px;
+    padding: 100px 100px;
 }
 
 .bottom-text {
@@ -117,9 +165,8 @@
 }
 
 .footer {
-    height: 20px;
     text-align: center;
     color: #D65930;
-    padding: 5%;
+    padding: 25px 0;
 }
 
